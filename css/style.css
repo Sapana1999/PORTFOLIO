@@ -1,8 +1,35 @@
-/* Main layout */
+/* Global CSS */
+.primary-btn {
+    background-color: #002a64;
+    padding: 12px 60px;
+    display: inline-flex;
+    justify-content: space-between;
+    margin:10px 0px;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    box-shadow: 0 3px 10px rgba(44, 100, 164, 0.3);
+    text-decoration: none;
+}
+.primary-btn:hover {
+    background-color: rgb(250, 250, 250);
+    color: #002a64;
+}
+.primary {
+    color: #002a64;
+}
+.secondary {
+    color: #0c4b7e;
+}
+h3{
+    font-size: 2.6rem;
+}
 *{
      margin: 0;
      padding: 0;
 }
+/* Main layout */
 .container {
     display: flex;
     flex-direction: row;
@@ -13,7 +40,7 @@
     display: flex;
     justify-content: flex-start;
     width: 100%;
-    height: 12vh;
+    height: 7.5vh;
     padding: 0px 30px 0px 100px;
     background-color: #002a64;
     align-items: center;
@@ -21,6 +48,7 @@
 }
 .navHeader {
     color:#fff;
+    font-size: 1.2rem;
 }
 .nav-link {
     list-style: none;
@@ -37,3 +65,31 @@
 .nav-item a:hover {
     color: #d3d3d3;
 }
+/* About Section */
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 100px;
+    justify-content: space-between;
+
+}
+
+.aboutText{
+   flex: 1;
+   font-size: 1.3rem;
+}
+.textContent {
+    line-height: 25pt;
+    word-spacing: 10pt;
+}
+.aboutImg img{
+    flex: 2;
+    border-radius: 15% 2%;
+    box-shadow: 0 3px 10px rgba(44, 100, 164, 0.5);
+}
+.aboutImg:hover {
+    opacity: 0.6;
+    background-color: #002a64;
+    border-radius: 15% 2%;
+}
+
