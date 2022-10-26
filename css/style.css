@@ -12,6 +12,9 @@
     box-shadow: 0 3px 10px rgba(44, 100, 164, 0.3);
     text-decoration: none;
 }
+.primary-img {
+    border-radius: 20px 20px;
+}
 .primary-btn:hover {
     background-color: rgb(250, 250, 250);
     color: #002a64;
@@ -93,3 +96,14 @@ h3{
     border-radius: 15% 2%;
 }
 
+/* Gallery Section */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 100px;
+    width: 85%;
+}
+.gallery>* {
+    flex: 0 0 31.5%;
+    padding: 10px 10px;
+}
