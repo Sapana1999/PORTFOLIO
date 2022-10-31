@@ -81,9 +81,13 @@ h3{
     align-items: center;
     box-shadow: 0 3px 10px rgba(44, 100, 164, 0.5);
 }
-.navHeader {
+.navHeader{
+    margin-top: -15px;
+}
+.navHeader a {
     color:#fff;
     font-size: 1.2rem;
+    text-decoration: none;
 }
 .nav-link {
     list-style: none;
